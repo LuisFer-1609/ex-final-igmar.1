@@ -51,7 +51,7 @@
                 @enderror
             </div>
 
-            <input type="number" name="rol" value="1" hidden>
+            <input type="number" name="rol" value="0" hidden>
 
             <div class="">
                 <a href="{{ route('login') }}">
