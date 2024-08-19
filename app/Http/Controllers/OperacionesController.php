@@ -64,7 +64,7 @@ class OperacionesController extends Controller
             $operando_uno = rand(1, 10);
             $operando_dos = rand(1, 10);
             $mayor = ($operando_uno > $operando_dos) ? $operando_uno : $operando_dos;
-            $menor = ($operando_uno < $operando_dos) ? $operando_dos : $operando_uno;
+            $menor = ($operando_uno < $operando_dos) ? $operando_uno : $operando_dos;
             array_push(
                 $restas,
                 [
@@ -83,7 +83,7 @@ class OperacionesController extends Controller
             $operando_uno = rand(1, 10);
             $operando_dos = rand(1, 10);
             $mayor = ($operando_uno > $operando_dos) ? $operando_uno : $operando_dos;
-            $menor = ($operando_uno < $operando_dos) ? $operando_dos : $operando_uno;
+            $menor = ($operando_uno < $operando_dos) ? $operando_uno : $operando_dos;
             array_push(
                 $multiplicaciones,
                 [
@@ -102,7 +102,7 @@ class OperacionesController extends Controller
             $operando_uno = rand(1, 10);
             $operando_dos = rand(1, 10);
             $mayor = ($operando_uno > $operando_dos) ? $operando_uno : $operando_dos;
-            $menor = ($operando_uno < $operando_dos) ? $operando_dos : $operando_uno;
+            $menor = ($operando_uno < $operando_dos) ? $operando_uno : $operando_dos;
             array_push(
                 $divisiones,
                 [
