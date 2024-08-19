@@ -1,8 +1,6 @@
 # Instrucciones para levantar el proyecto
 
-- [Modificar el archivo .env.subir a .env]
-
-  - [Configurar las credenciales de la base de datos y mailtrap]
+- [Configurar las credenciales de la base de datos y mailtrap del archivo .env]
 
 - [Por defecto se crean usuarios que no son administradores, para crear un usuario administrador ir al archivo register que está dentro de la carpeta Auth exactamente en la línea 54]
 
